@@ -1,0 +1,15 @@
+/* look at default styling trav has/my old LS work */
+
+* {
+  box-sizing: border-box;
+  font: arial;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.top-nav {
+  display: flex;
+
+}
