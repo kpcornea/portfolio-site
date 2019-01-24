@@ -179,14 +179,14 @@ a {
   /* change this height later */
   margin: 0 auto;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .navbar {
   display: flex;
   justify-content: center;
 
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 
 }
 
@@ -210,9 +210,11 @@ nav {
 }
 
 .jumbotron {
+  position: relative;
+  text-align: center;
+  color: white;
 
-
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .jumbo-items {
@@ -223,18 +225,24 @@ nav {
     align-items: center;
     height: 300px;
 
-    border: 1px solid green;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* border: 1px solid green; */
 }
 
 .headline {
-    padding: 20px;
+    padding: 10px;
 
 
   border: 1px solid red;
 }
 
 .tagline {
-  padding: 20px;
+  padding: 10px;
 
     border: 1px solid red;
 }
