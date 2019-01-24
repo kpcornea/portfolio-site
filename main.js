@@ -11,3 +11,4 @@
 // change to slightly fatter more modern font
 // from after changed bg to stars 2, from here i think change bg to video bg i want, then update fonts/add animation, don't forget media queries for different screen sizes
 // could overlay dust vid bg and a coding related pic so it makes more sense lol (and also looks cool)
+// dust particle vid is slightly cut off currently. looks pretty cool though. 
