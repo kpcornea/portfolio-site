@@ -220,6 +220,15 @@ nav {
   /* border: 1px solid red; */
 }
 
+nav a {
+  -webkit-transition: color .5s; /* Safari */
+  transition: color .5s;
+}
+
+nav a:hover {
+  color: turquoise;
+}
+
 .jumbotron {
   /* position: relative;
   text-align: center;
@@ -246,14 +255,14 @@ nav {
 }
 
 .headline {
-    padding: 10px;
+    padding: 15px;
 
 
   /* border: 1px solid red; */
 }
 
 .tagline {
-  padding: 10px;
+  padding: 0 15px 15px;
 
     /* border: 1px solid red; */
 }
@@ -264,12 +273,15 @@ nav {
   /* left: 0; */
   /* opacity: 10%; */
 
+  width: 100%;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     opacity: .3;
+    filter: alpha(opacity=30);
     /* display: none; */
 
 }
@@ -279,4 +291,12 @@ nav {
   /* position: absolute; */
   /* top: 0px; */
   /* left: 0px; */
+}
+
+.pro-pic {
+  width: 200px;
+}
+
+.github-icon {
+  width: 30px;
 }
