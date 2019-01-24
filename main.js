@@ -9,3 +9,5 @@
 // separate class outside of container for title space / nav? i think so cuz that way i can get effect of never ending nav section
 // maybe use less/sass just for the upgrades like mixins etc. would be a bit easier but i also want to get a working version up asap.
 // change to slightly fatter more modern font
+// from after changed bg to stars 2, from here i think change bg to video bg i want, then update fonts/add animation, don't forget media queries for different screen sizes
+// could overlay dust vid bg and a coding related pic so it makes more sense lol (and also looks cool)
