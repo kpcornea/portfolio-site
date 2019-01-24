@@ -138,6 +138,7 @@ html {
 }
 html,
 body {
+  /* font-family: 'Roboto', 'Ubuntu', sans-serif; */
   font-family: 'Ubuntu', sans-serif;
   /* color: #5E6164; */
   color: white;
@@ -149,7 +150,9 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  /* font-family: 'Russo One', sans-serif; */
+
+  font-family: 'Roboto', 'Russo One', sans-serif;
   /* color: #23293B; */
   color: white;
 }
@@ -299,4 +302,5 @@ nav a:hover {
 
 .github-icon {
   width: 30px;
+  /* color: red; */
 }
