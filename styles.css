@@ -224,12 +224,17 @@ nav {
 }
 
 nav a {
-  -webkit-transition: color .5s; /* Safari */
-  transition: color .5s;
+  /* -webkit-transition: filter .5s ease; /* Safari */
+  /* transition: filter .5s ease; */
+  -webkit-transition: color .5s ease; /* Safari */
+  /* need mozilla filter as well? */
+  transition: color .5s ease;
 }
 
 nav a:hover {
-  color: turquoise;
+  /* filter: invert(50%); */
+  /* color: turquoise; */
+  color: #1ccea2;
 }
 
 .jumbotron {
@@ -258,14 +263,14 @@ nav a:hover {
 }
 
 .headline {
-    padding: 15px;
+    padding: 13px;
 
 
   /* border: 1px solid red; */
 }
 
 .tagline {
-  padding: 0 15px 15px;
+  padding: 0 13px 13px;
 
     /* border: 1px solid red; */
 }
@@ -297,10 +302,19 @@ nav a:hover {
 }
 
 .pro-pic {
-  width: 200px;
+  width: 190px;
+  border-radius: 50%;
 }
 
 .github-icon {
   width: 30px;
   /* color: red; */
+  border-radius: 50%;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+
+.github-icon:hover {
+  /* pretty good now but i think slightly off. it keeps "hardening" at the last moment. o i think it's because there's a slight white outline around the original image right now */
+  filter: invert(100%);
 }
