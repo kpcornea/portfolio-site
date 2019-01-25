@@ -19,7 +19,7 @@
 // maybe splash of color as glow background to pro pic, maybe also github icon
 // maybe space out items a little bit more. looking pretty good now though.
 // make dust vid stretched to full screen if possible..making a lot of trouble for me. will come back to it if time, animations more important, and it's really fine/good as is, just would be nice to cover last bottom section
-// probs cover for different browsers with animation and possibly check with multiple browsers, yes i think do this
+// X probs cover for different browsers with animation and possibly check with multiple browsers, yes i think do this
 // clean up notes/code
 // X think ex the color circles for now
 // background pic looks quite scrunched on mobile. might be ok for now.
