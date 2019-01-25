@@ -307,6 +307,14 @@ nav a:hover {
 }
 
 
+@media (max-width: 1000px) {
+  .jumbo-img {
+    height: 100vh;
+    width: 100%;
+    /* display: none; */
+  }
+}
+
 .jumbo-vid {
   /* position: absolute; */
   /* top: 0px; */
@@ -317,8 +325,15 @@ nav a:hover {
   width: 190px;
   border-radius: 50%;
   position: relative;
-  /* border: 3px solid #1ccea2; */
+  /* border: 5px solid #1ccea2; */
+  /* border: 10px solid black; */
 }
+/*
+.color-deco-1 {
+
+  border-radius: 50%;
+  border: 5px solid #1ccea2;
+} */
 
 .github-icon {
   width: 40px;
@@ -340,6 +355,41 @@ nav a:hover {
 .github-icon:hover {
   /* pretty good now but i think slightly off. it keeps "hardening" at the last moment. o i think it's because there's a slight white outline around the original image right now */
   filter: invert(100%);
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .headline {
+    padding: 23px;
+    /* border: 1px solid red; */
+  }
+
+  .tagline {
+    padding: 0 23px 23px;
+  }
+
+  .github-icon {
+    /* button hover slightly off, fixed */
+    /* border-radius; 0%; */
+    width: 55px;
+  }
+
+  body {
+    position: relative;
+    top: 120px;
+  }
+
+  .jumbo-vid {
+    position: relative;
+    bottom: 120px;
+  }
 }
 
 
@@ -376,6 +426,21 @@ nav a:hover {
 }
 
 
+/* @keyframes fade-border {
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  /* from {border:;}
+  to {border: 5px solid #1ccea2;}
+} */
+
+/* @-webkit-keyframes fade-border { */
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  /* from {border:;}
+  to {border: 5px solid #1ccea2;}
+} */
+
+
 @keyframes slide {
   from {top: 100px;}
   to {top: 0;}
@@ -401,6 +466,12 @@ h1, h3, .github-icon, .pro-pic {
   /* -webkit-animation: slide 2s; */
 
 }
+
+/* .color-deco-1 {
+
+  animation: slide 1s ease;
+  -webkit-animation: slide 1s ease;
+} */
 
 /* h1, h3, .github-icon, .pro-pic {
 
