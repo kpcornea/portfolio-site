@@ -392,8 +392,6 @@ nav a:hover {
   }
 }
 
-
-
 /* animations */
 
 /* The animation code */
@@ -411,19 +409,33 @@ nav a:hover {
   to {opacity: 1;}
 }
 
-@keyframes fade-light {
+@-moz-keyframes fade {
   /* from {background-color: red;} */
   /* to {background-color: yellow;} */
   from {opacity: 0;}
-  to {opacity: .3;}
+  to {opacity: 1;}
 }
 
-@-webkit-keyframes fade-light {
+@-o-keyframes fade {
   /* from {background-color: red;} */
   /* to {background-color: yellow;} */
   from {opacity: 0;}
-  to {opacity: .3;}
+  to {opacity: 1;}
 }
+
+/* @keyframes fade-light { */
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  /* from {opacity: 0;}
+  to {opacity: .3;}
+} */
+
+/* @-webkit-keyframes fade-light { */
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  /* from {opacity: 0;}
+  to {opacity: .3;}
+} */
 
 
 /* @keyframes fade-border {
@@ -446,6 +458,21 @@ nav a:hover {
   to {top: 0;}
 }
 
+@-webkit-keyframes slide {
+  from {top: 100px;}
+  to {top: 0;}
+}
+
+@-moz-keyframes slide {
+  from {top: 100px;}
+  to {top: 0;}
+}
+
+@-o-keyframes slide {
+  from {top: 100px;}
+  to {top: 0;}
+}
+
 /* @-webkit-keyframes slide {
   from {position: relative; top: 100%}
   to {position: relative; top: 50%}
@@ -461,11 +488,15 @@ h1, h3, .github-icon, .pro-pic {
   animation-duration: 2s; */
   animation: slide 1s ease, fade 1s ease;
   -webkit-animation: slide 1s ease, fade 1s ease;
+  -o-animation: slide 1s ease, fade 1s ease;
+  -moz-animation: slide 1s ease, fade 1s ease;
   /* animation-delay: 5s initial; */
   /* animation: slide 2s; */
   /* -webkit-animation: slide 2s; */
 
 }
+
+
 
 /* .color-deco-1 {
 
@@ -487,6 +518,8 @@ h1, h3, .github-icon, .pro-pic {
   animation-duration: 2s; */
    animation: fade 5s;
   -webkit-animation: fade 5s;
+  -o-animation: fade 5s;
+  -moz-animation: fade 5s;
 }
 
 .jumbo-img {
