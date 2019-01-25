@@ -360,14 +360,14 @@ nav a:hover {
   to {opacity: 1;}
 }
 
-@keyframes fade-img {
+@keyframes fade-light {
   /* from {background-color: red;} */
   /* to {background-color: yellow;} */
   from {opacity: 0;}
   to {opacity: .3;}
 }
 
-@-webkit-keyframes fade-img {
+@-webkit-keyframes fade-light {
   /* from {background-color: red;} */
   /* to {background-color: yellow;} */
   from {opacity: 0;}
@@ -387,8 +387,8 @@ h1, h3, .github-icon, .pro-pic {
   /* background-color: red; */
   /* animation-name: fade;
   animation-duration: 2s; */
-  animation: fade 1s;
-  -webkit-animation: fade 1s;
+  animation: fade 2s;
+  -webkit-animation: fade 2s;
   /* animation: slide 2s; */
   /* -webkit-animation: slide 2s; */
 
