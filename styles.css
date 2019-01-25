@@ -159,6 +159,8 @@ h5 {
 h1 {
   font-size: 4rem;
   font-weight: bold;
+
+  position: relative;
 }
 h2 {
   font-size: 3.2rem;
@@ -166,6 +168,8 @@ h2 {
 h3 {
   font-size: 2.1rem;
   /* font-weight: lighter; */
+
+  position: relative;
 }
 p {
   font-size: 1.6rem;
@@ -312,7 +316,7 @@ nav a:hover {
 .pro-pic {
   width: 190px;
   border-radius: 50%;
-
+  position: relative;
   /* border: 3px solid #1ccea2; */
 }
 
@@ -321,6 +325,8 @@ nav a:hover {
   /* color: red; */
   border-radius: 50%;
   /* object-fit: contain; */
+  position: relative;
+  /* opacity: 0; */
 
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
@@ -339,18 +345,13 @@ nav a:hover {
 
 
 /* animations */
+
 /* The animation code */
 @keyframes fade {
   /* from {background-color: red;} */
   /* to {background-color: yellow;} */
   from {opacity: 0;}
   to {opacity: 1;}
-}
-
-@keyframes slide {
-  from {top: 100px}
-  to {top: 0}
-
 }
 
 @-webkit-keyframes fade {
@@ -374,11 +375,17 @@ nav a:hover {
   to {opacity: .3;}
 }
 
-@-webkit-keyframes slide {
+
+@keyframes slide {
+  from {top: 100px;}
+  to {top: 0;}
+}
+
+/* @-webkit-keyframes slide {
   from {position: relative; top: 100%}
   to {position: relative; top: 50%}
 
-}
+} */
 
 /* The element to apply the animation to */
 h1, h3, .github-icon, .pro-pic {
@@ -387,12 +394,19 @@ h1, h3, .github-icon, .pro-pic {
   /* background-color: red; */
   /* animation-name: fade;
   animation-duration: 2s; */
-  animation: fade 2s;
-  -webkit-animation: fade 2s;
+  animation: slide 1s ease, fade 1s ease;
+  -webkit-animation: slide 1s ease, fade 1s ease;
+  /* animation-delay: 5s initial; */
   /* animation: slide 2s; */
   /* -webkit-animation: slide 2s; */
 
 }
+
+/* h1, h3, .github-icon, .pro-pic {
+
+  animation: fade 2s;
+  -webkit-animation: fade 2s; */
+/* } */
 
 .jumbo-vid {
   /* width: 100px; */
