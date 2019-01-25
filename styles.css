@@ -335,3 +335,89 @@ nav a:hover {
   /* pretty good now but i think slightly off. it keeps "hardening" at the last moment. o i think it's because there's a slight white outline around the original image right now */
   filter: invert(100%);
 }
+
+
+
+/* animations */
+/* The animation code */
+@keyframes fade {
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes slide {
+  from {top: 100px}
+  to {top: 0}
+
+}
+
+@-webkit-keyframes fade {
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fade-img {
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  from {opacity: 0;}
+  to {opacity: .3;}
+}
+
+@-webkit-keyframes fade-img {
+  /* from {background-color: red;} */
+  /* to {background-color: yellow;} */
+  from {opacity: 0;}
+  to {opacity: .3;}
+}
+
+@-webkit-keyframes slide {
+  from {position: relative; top: 100%}
+  to {position: relative; top: 50%}
+
+}
+
+/* The element to apply the animation to */
+h1, h3, .github-icon, .pro-pic {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  /* animation-name: fade;
+  animation-duration: 2s; */
+  animation: fade 1s;
+  -webkit-animation: fade 1s;
+  /* animation: slide 2s; */
+  /* -webkit-animation: slide 2s; */
+
+}
+
+.jumbo-vid {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  /* animation-name: fade;
+  animation-duration: 2s; */
+   animation: fade 5s;
+  -webkit-animation: fade 5s;
+}
+
+.jumbo-img {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  /* animation-name: fade;
+  animation-duration: 2s; */
+  /* animation: fade-img 5s;
+  -webkit-animation: fade-img 5s; */
+}
+
+/* h1, h3, .github-icon, .pro-pic {
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  /* animation-name: slide; */
+  /* animation-duration: 2s; */
+/* } */
