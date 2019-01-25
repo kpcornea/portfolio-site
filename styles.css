@@ -158,12 +158,14 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  font-weight: bold;
 }
 h2 {
   font-size: 3.2rem;
 }
 h3 {
   font-size: 2.1rem;
+  /* font-weight: lighter; */
 }
 p {
   font-size: 1.6rem;
@@ -199,6 +201,8 @@ a {
   /* bottom: 50%; */
   left: 50%;
   transform: translate(-50%, -50%);
+
+  display: none;
 
   /* border: 1px solid purple; */
 
@@ -263,7 +267,9 @@ nav a:hover {
 }
 
 .headline {
-    padding: 13px;
+  padding: 13px;
+
+  text-shadow: 2px 2px 5px black;
 
 
   /* border: 1px solid red; */
@@ -273,6 +279,8 @@ nav a:hover {
   padding: 0 13px 13px;
 
     /* border: 1px solid red; */
+
+  text-shadow: 1px 1px 5px black;
 }
 
 .jumbo-img {
@@ -304,14 +312,23 @@ nav a:hover {
 .pro-pic {
   width: 190px;
   border-radius: 50%;
+
+  /* border: 3px solid #1ccea2; */
 }
 
 .github-icon {
-  width: 30px;
+  width: 40px;
   /* color: red; */
   border-radius: 50%;
+  /* object-fit: contain; */
+
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
+  padding: 7px;
+  background-color: white;
+  /* border: 1px solid red; */
+
+  /* shadow: 2px 2px 5px black; */
 }
 
 .github-icon:hover {

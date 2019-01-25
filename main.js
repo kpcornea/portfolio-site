@@ -10,9 +10,11 @@
 // maybe use less/sass just for the upgrades like mixins etc. would be a bit easier but i also want to get a working version up asap.
 
 // change to slightly fatter more modern font
-// from after changed bg to stars 2, from here i think Xchange bg to video bg i want, then update fonts/add animation, don't forget media queries for different screen sizes
-// dust particle vid is slightly cut off currently. looks pretty cool though.
-// edit pic of me to be circular and right size, same for github icon. probably make all links glow/at least change color on hover. an animation would be nice though.
+// from after changed bg to stars 2, from here i think Xchange bg to video bg i want, then Xupdate fonts and add animation, don't forget media queries for different screen sizes, then fancier mouse interactivity
+// dust particle vid is slightly cut off currently. overall looks pretty cool though.
+// Xedit pic of me to be circular and right size, same for github icon. probably make all links glow/at least change color on hover. an animation would be nice though.
 // add animations on landing
-// might need to make color icon version in ps or the like to make transition work
 // maybe different font for header and links/tagline X i think fine for now
+// might ex the nav X for now since nowhere to navigate to right now
+// maybe splash of color as glow background to pro pic, maybe also github icon
+// maybe space out items a little bit more. looking pretty good now though.
